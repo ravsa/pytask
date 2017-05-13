@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <link rel="stylesheet" href="static/css/style.css">
+    </head>
+    <body style="background:url('/static/images/bg.jpg'); background-repeat: no-repeat; background-size: 100% 100%;">
+        <div id="mainbox" >
+            {% for row in data%}
+            <div class="card" style="background-color:{{row['color']}}">
+                <img src="static/images/nse.png" alt="" />
+                <h2>{{row['Symbol']}}</h2>
+                <table>
+                    <br />
+                    <tr>
+                        <td>LTP: {{row['LTP']}}</td>
+                        <td>%Change: {{row['%Change']}}</td>
+                    </tr>
+                    <tr>
+                        <td>TradedQty: {{row['TradedQty']}}</td>
+                        <td>Value(Lacs): {{row['Value(in Lakhs)']}}</td>
+                    </tr>
+                    <tr>
+                        <td>Open: {{row['Open']}}</td>
+                        <td>Close: {{row['Prev.Close']}}</td>
+                    </tr>
+                    <tr>
+                        <td>High: {{row['High']}}</td>
+                        <td>Low: {{row['Low']}}</td>
+                    </tr>
+                    <tr>
+                        <td>Latest Ex Date: {{row['Latest Ex Date']}}</td>
+                    </tr>
+                </table>
+            </div>
+            {%endfor%}
+            <!-- <div class="card"> -->
+            <!--     <img src="nse.png" alt="" /> -->
+            <!--     <h2>Rohit Falor</h2> -->
+            <!--     <p>From the restored 540 K Streamliner to the all-new S65 AMG Coupe to the Concept Coupe SUV, last weekend in Monterey was a celebration of the Mercedes-Benz coupe.</p> -->
+            <!-- </div> -->
+            <!-- <div class="card"> -->
+            <!--     <img src="nse.png" alt="" /> -->
+            <!--     <h2>Rohit Falor</h2> -->
+            <!--     <p>From the restored 540 K Streamliner to the all-new S65 AMG Coupe to the Concept Coupe SUV, last weekend in Monterey was a celebration of the Mercedes-Benz coupe.</p> -->
+            <!-- </div> -->
+            <!-- <div class="card"> -->
+            <!--     <img src="nse.png" alt="" /> -->
+            <!--     <h2>Rohit Falor</h2> -->
+            <!--     <p>From the restored 540 K Streamliner to the all-new S65 AMG Coupe to the Concept Coupe SUV, last weekend in Monterey was a celebration of the Mercedes-Benz coupe.</p> -->
+            <!-- </div> -->
+            <!-- <div class="card"> -->
+            <!--     <img src="nse.png" alt="" /> -->
+            <!--     <h2>Rohit Falor</h2> -->
+            <!--     <p>From the restored 540 K Streamliner to the all-new S65 AMG Coupe to the Concept Coupe SUV, last weekend in Monterey was a celebration of the Mercedes-Benz coupe.</p> -->
+            <!-- </div> -->
+            <!-- <div class="card"> -->
+            <!--     <img src="nse.png" alt="" /> -->
+            <!--     <h2>Rohit Falor</h2> -->
+            <!--     <p>From the restored 540 K Streamliner to the all-new S65 AMG Coupe to the Concept Coupe SUV, last weekend in Monterey was a celebration of the Mercedes-Benz coupe.</p> -->
+            <!-- </div> -->
+            <!-- <div class="card"> -->
+            <!--     <img src="nse.png" alt="" /> -->
+            <!--     <h2>Rohit Falor</h2> -->
+            <!--     <p>From the restored 540 K Streamliner to the all-new S65 AMG Coupe to the Concept Coupe SUV, last weekend in Monterey was a celebration of the Mercedes-Benz coupe.</p> -->
+            <!-- </div> -->
+            <!-- <div class="card"> -->
+            <!--     <img src="nse.png" alt="" /> -->
+            <!--     <h2>Rohit Falor</h2> -->
+            <!--     <p>From the restored 540 K Streamliner to the all-new S65 AMG Coupe to the Concept Coupe SUV, last weekend in Monterey was a celebration of the Mercedes-Benz coupe.</p> -->
+            <!-- </div> -->
+            <!-- <div class="card"> -->
+            <!--     <img src="nse.png" alt="" /> -->
+            <!--     <h2>Rohit Falor</h2> -->
+            <!--     <p>From the restored 540 K Streamliner to the all-new S65 AMG Coupe to the Concept Coupe SUV, last weekend in Monterey was a celebration of the Mercedes-Benz coupe.</p> -->
+            <!-- </div> -->
+            <!-- <div class="card"> -->
+            <!--     <img src="nse.png" alt="" /> -->
+            <!--     <h2>Rohit Falor</h2> -->
+            <!--     <p>From the restored 540 K Streamliner to the all-new S65 AMG Coupe to the Concept Coupe SUV, last weekend in Monterey was a celebration of the Mercedes-Benz coupe.</p> -->
+            <!-- </div>     -->
+        </div>
+
+
+    </body>
+</html>
