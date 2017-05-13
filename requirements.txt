@@ -1,0 +1,9 @@
+pip
+lxml
+git+git://github.com/niklasb/webkit-server.git
+xvfbwrapper
+CherryPy
+redis
+redisworks
+jinja2
+dryscrape
